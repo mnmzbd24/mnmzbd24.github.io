@@ -1,0 +1,10 @@
+---
+title: "About"
+image: picture.jpg
+about: 
+  template: jolla
+  links: 
+    - icon: twitter
+      text: some text
+      href: https://www.wikipedia.org/
+---
