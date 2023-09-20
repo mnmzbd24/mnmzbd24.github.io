@@ -1,6 +1,7 @@
 ---
 title: "Madison Mitchell"
 image: picture2.jpg
+description: I am currently a senior at MIZZOU looking to start my career after graduation in May 2024.
 about:
   template: jolla
   links:
@@ -10,7 +11,7 @@ about:
       
     - icon: linkedin
       text: LinkedIn
-      href: linkedin.com/in/madi-mitchell-0abb3a21b
+      href: https://linkedin.com/in/madi-mitchell-0abb3a21b
       
     - icon: archive
       text: Email
