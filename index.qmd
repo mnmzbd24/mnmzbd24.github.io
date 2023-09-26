@@ -1,7 +1,7 @@
 ---
 title: "Madison Mitchell"
 image: picture2.jpg
-description: I am currently a senior at MIZZOU looking to start my career after graduation in May 2024.
+#description:
 about:
   template: jolla
   links:
@@ -13,7 +13,11 @@ about:
       text: LinkedIn
       href: https://linkedin.com/in/madi-mitchell-0abb3a21b
       
-    - icon: archive
-      text: Email
-      href: mnmzbd@umsystem.edu
+    - icon: file-earmark-bar-graph
+      text: Projects
+      href: Projects.qmd
+      
+    - icon: pencil
+      text: Publications
+      href: https://scholar.google.com/citations?hl=en&user=lLG1ALUAAAAJ
 ---

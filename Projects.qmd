@@ -1,0 +1,5 @@
+---
+title: "Projects"
+image: MGC_Poster_Final-Madi.jpg
+description: Identifying Drought Tolerant Genotypes via UAV Images
+---

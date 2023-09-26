@@ -3,11 +3,14 @@ project:
   output-dir: docs
 
 website:
-  title: "mnmzbd24.github.io"
+  title: "Madison Mitchell"
   navbar:
     left:
       - href: index.qmd
         text: Home
+        
+      - href: Projects.qmd
+        text: Projects
 
 format:
   html:
