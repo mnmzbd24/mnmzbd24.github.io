@@ -1,5 +1,5 @@
 ---
-title: "Madison Mitchell"
+title: "Madi Mitchell"
 id: hero-heading
 image: picture2.jpg
 #description:
@@ -23,5 +23,4 @@ about:
       href: https://scholar.google.com/citations?hl=en&user=lLG1ALUAAAAJ
 ---
 
-Madi Mitchell is a Senior at Mizzou. She currently is working in Dr. Jacob Washburn's Lab studying the implications of drones in the identification of flood-tolerant maize genotypes.
-\
+I am currently a senior at MIZZOU studying Plant Sciences. My emphasis area is Breeding, Biology, and Biotechnology. I am also pursuing a minor in Mathematics. My hope is that this website is a living representation of my research and current professional accomplishments. Enjoy!!
