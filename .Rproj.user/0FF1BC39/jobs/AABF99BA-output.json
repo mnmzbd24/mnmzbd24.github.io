@@ -108,3 +108,5 @@
 [1,"\u001B[1mpandoc \u001B[22m\n  to: html\n  output-file: index.html\n  standalone: true\n  title-prefix: Madi Mitchell\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  css:\n    - styles.css\n  toc: true\n  \n\u001B[1mmetadata\u001B[22m\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  editor: visual\n  theme: cosmo\n  title: Madi Mitchell\n  id: hero-heading\n  image: picture2.jpg\n  about:\n    template: jolla\n    links:\n      - icon: github\n        text: GitHub\n        href: 'https://github.com/mnmzbd24/mnmzbd24.github.io'\n      - icon: linkedin\n        text: LinkedIn\n        href: 'https://linkedin.com/in/madi-mitchell-0abb3a21b'\n      - icon: file-earmark-bar-graph\n        text: Projects\n        href: Projects.qmd\n      - icon: pencil\n        text: Publications\n        href: 'https://scholar.google.com/citations?hl=en&user=lLG1ALUAAAAJ'\n  \n"]
 [1,"Output created: docs/index.html\n\n\u001B[32mWatching files for changes\u001B[39m\n"]
 [1,"\u001B[32mGET: /\u001B[39m\n"]
+[1,"\u001B[32mGET: /Projects.html\u001B[39m\n"]
+[1,"\u001B[32mGET: /\u001B[39m\n"]
