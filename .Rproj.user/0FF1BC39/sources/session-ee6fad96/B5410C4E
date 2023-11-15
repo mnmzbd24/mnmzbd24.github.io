@@ -1,24 +1,24 @@
 {
-    "id": "575161AA",
-    "path": "~/Desktop/frankieB73/about.qmd",
-    "project_path": null,
-    "type": "quarto_markdown",
+    "id": "B5410C4E",
+    "path": "~/Documents/GitHub/mnmzbd24.github.io/styles.css",
+    "project_path": "styles.css",
+    "type": "css",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1699978907787.0,
+    "created": 1700059758171.0,
     "source_on_save": false,
-    "relative_order": 6,
+    "relative_order": 2,
     "properties": {
         "source_window_id": "",
         "Source": "Source"
     },
     "folds": "",
-    "lastKnownWriteTime": 1698946981,
+    "lastKnownWriteTime": 1667935912,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1698946981,
+    "last_content_update": 1667935912,
     "read_only": false,
     "read_only_alternatives": []
 }
