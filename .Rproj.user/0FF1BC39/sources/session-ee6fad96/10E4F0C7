@@ -1,14 +1,14 @@
 {
-    "id": "88A40238",
+    "id": "10E4F0C7",
     "path": "~/Documents/GitHub/mnmzbd24.github.io/Projects.qmd",
     "project_path": "Projects.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "3471259506",
     "contents": "",
     "dirty": false,
-    "created": 1700059766738.0,
+    "created": 1701372999184.0,
     "source_on_save": false,
-    "relative_order": 4,
+    "relative_order": 3,
     "properties": {
         "rmdVisualMode": "true",
         "rmdVisualWrapConfigured": "true",
@@ -19,14 +19,14 @@
         "rmdVisualCollapsedChunks": "",
         "cursorPosition": "0,0",
         "scrollLine": "0",
-        "rmdVisualModeLocation": "133:0"
+        "rmdVisualModeLocation": "1155:2193.5"
     },
     "folds": "",
-    "lastKnownWriteTime": 1701366034,
+    "lastKnownWriteTime": 1701373219,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1701366034091,
+    "last_content_update": 1701373219695,
     "read_only": false,
     "read_only_alternatives": []
 }
