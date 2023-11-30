@@ -1,24 +1,24 @@
 {
-    "id": "B5410C4E",
-    "path": "~/Documents/GitHub/mnmzbd24.github.io/styles.css",
-    "project_path": "styles.css",
-    "type": "css",
+    "id": "AF288A4D",
+    "path": "~/Downloads/resampling_example.qmd",
+    "project_path": null,
+    "type": "quarto_markdown",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1700059758171.0,
+    "created": 1700230526346.0,
     "source_on_save": false,
-    "relative_order": 2,
+    "relative_order": 9,
     "properties": {
         "source_window_id": "",
         "Source": "Source"
     },
     "folds": "",
-    "lastKnownWriteTime": 1667935912,
+    "lastKnownWriteTime": 1700230523,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1667935912,
+    "last_content_update": 1700230523,
     "read_only": false,
     "read_only_alternatives": []
 }
