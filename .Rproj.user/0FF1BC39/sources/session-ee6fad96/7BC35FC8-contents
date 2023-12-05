@@ -1,0 +1,34 @@
+---
+title: "RD_graph"
+output: html_document
+date: "2023-12-04"
+---
+
+```{r}
+ndvi <- read.csv("~/desktop/uav_flood_analysis/Python_Notebooks/All_NDVI.csv", sep = ",", header = TRUE)
+
+
+# Libraries
+library(ggplot2)
+library(hrbrthemes)
+library(dplyr)
+library(tidyr)
+library(viridis)
+
+# The diamonds dataset is natively available with R.
+
+# Without transparency (left)
+p1 <- ggplot(data=ndvi, aes(x=Value, group=Date, fill=Date)) +
+    geom_density(adjust=1.5) 
+    #theme_ipsum()
+p1
+
+ggplot(data=ndvi, aes(x=Value, group=Date, fill=Date)) +
+    geom_density(adjust=1.5) +
+    facet_wrap(~Date) +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      axis.ticks.x=element_blank()
+    )
+```
