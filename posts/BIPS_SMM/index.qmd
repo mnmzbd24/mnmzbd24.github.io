@@ -8,6 +8,10 @@ image: "Show_Me_MUn.png"
 
 ![](Show_Me_MUn.png){fig-align="center"}
 
-BIPS (BioInformatics In Plant Science) has been working on our semester project. Currently we are participating in Plant the Moon where student researchers from across the country come up with ideas to make regolith (moon substrate) viable for plant growth. **(October 2023 - present)**
+BIPS (BioInformatics in Plant Science) has been working on our semester project. Currently, we are participating in Plant the Moon where student researchers from across the country come up with ideas to make regolith (moon substrate) viable for plant growth. 
+
+During our preliminary meetings, we noticed that pure regolith did not absorb water. Instead, the water pooled on the top of the substrate. Our current idea to \"Plant the Moon\" is to increase the porosity of soil with perlite. This will increase water infiltration as well as nutrient absorption of the plants. We have done this by adding 10% more perlite per container up to 80%. Essentially creating a gradient of differing bulk densities. We will take images of these plants and characterize their growth patterns to identify the correlation between success and bulk density of the growing substrate. 
 
 ![](SMM_pots.jpg){fig-align="center"}
+
+The above image is of our current experimental design. Each container holds its designated amount of perlite and will be given the exact same water and nutrient treatments.

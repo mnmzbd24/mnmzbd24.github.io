@@ -3,6 +3,16 @@ title: "Capstone Presentation"
 author: "Madison Mitchell"
 date: "2023-12-01"
 categories: [news, code, analysis]
-image: "sneak_peak.png"
+image: "title_page.png"
 ---
 
+Crop damage from severe weather such as wind, rain, and flooding is projected to cause three billion dollars in crop damage annually by 2030. Accurately assessing these damages and understanding the genetic basis for why some cultivars survive while others do not is challenging, especially for flood damage where the fields may become inaccessible both during and after the flood event. Flooding events are also predicted to increase as climate change brings more extreme weather events. As Unoccupied Aerial Vehicle (UAV or Drone) resources become widespread, phenotyping from the sky has become an option to remove the bottlenecks, challenges, and safety risks of manually measuring flooding while still maintaining or increasing accuracy.
+
+![](pipeline.png)\
+
+In my final Capstone presentation, I describe not only the utility of drones in an agricultural setting but also show the inferences that can be made from the images they collect. Using NDVI as a health indicator, the patterns of damage and recovery can be assessed across fields, years, and locations. The following figures show the vast differences between flooded and non-flooded Zea *mays*.
+
+![](all_genos.png){fig-align="center"}
+
+\
+2020 represents a normal growing season while 2021 shows a field that underwent a natural flooding event at the V5 stage. The resulting analysis has shown that a closer look at environmental factors (soil, water, and management) need to be taken into account prior to specific cultivars being identified as flood-tolerant.

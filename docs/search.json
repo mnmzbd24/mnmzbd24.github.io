@@ -2,7 +2,7 @@
   {
     "objectID": "Projects.html",
     "href": "Projects.html",
-    "title": "Projects",
+    "title": "PROJECTS",
     "section": "",
     "text": "Show Me Research Day 2023\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nDec 7, 2023\n\n\nMadison Mitchell\n\n\n\n\n\n\n  \n\n\n\n\nCapstone Presentation\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2023\n\n\nMadison Mitchell\n\n\n\n\n\n\n  \n\n\n\n\nBIPS: Show Me MUn Project\n\n\n\n\n\n\n\nnews\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 12, 2023\n\n\nMadison Mitchell\n\n\n\n\n\n\n  \n\n\n\n\nField Season 2023\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 17, 2023\n\n\nMadison Mitchell\n\n\n\n\n\n\n  \n\n\n\n\nMaize Meeting 2023\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nApr 10, 2023\n\n\nMadison Mitchell\n\n\n\n\n\n\nNo matching items"
   },
@@ -32,34 +32,34 @@
     "href": "posts/Field_Season_2023/index.html",
     "title": "Field Season 2023",
     "section": "",
-    "text": "Harvest has come to an end! I had a great time this summer. I learned how to drop seed in the research planter, collected images with UAVs, did hand pollinations in the nursery fields, and hand harvested 100s of ears. Overall, lots of fun with the Washburn Lab! (September 2023)"
+    "text": "Harvest has come to an end! I had a great time this summer. I learned how to drop seed in the research planter, collected images with UAVs, did hand pollinations in the nursery fields, and hand-harvested ears. Overall, lots of fun with the Washburn Lab! \n\nEND OF SEASON STATS:\nDrone flights = 137\nRover Runs = 8\nWeed Control Parties = too many\nHand-Harvested Ears = 1200"
   },
   {
     "objectID": "posts/Maize_Meeting_2023/index.html",
     "href": "posts/Maize_Meeting_2023/index.html",
     "title": "Maize Meeting 2023",
     "section": "",
-    "text": "I had a blast at the Maize Genetics Corperation Meeting! I had the opportunity to present my current research, attend numerous talks from experts in their fields, and network with amazing individuals."
+    "text": "I had a blast at the MGC Meeting! I had the opportunity to present my current research, attend numerous talks from experts in their fields, and network with amazing individuals. Along with members of the Flint-Garcia Lab, we also took home a win in the trivia competition. Overall, a great first-ever conference to attend!"
   },
   {
     "objectID": "posts/Capstone_Pres/index.html",
     "href": "posts/Capstone_Pres/index.html",
-    "title": "Welcome To My Blog",
+    "title": "Capstone Presentation",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Crop damage from severe weather such as wind, rain, and flooding is projected to cause three billion dollars in crop damage annually by 2030. Accurately assessing these damages and understanding the genetic basis for why some cultivars survive while others do not is challenging, especially for flood damage where the fields may become inaccessible both during and after the flood event. Flooding events are also predicted to increase as climate change brings more extreme weather events. As Unoccupied Aerial Vehicle (UAV or Drone) resources become widespread, phenotyping from the sky has become an option to remove the bottlenecks, challenges, and safety risks of manually measuring flooding while still maintaining or increasing accuracy.\n\n\nIn my final Capstone presentation, I describe not only the utility of drones in an agricultural setting but also show the inferences that can be made from the images they collect. Using NDVI as a health indicator, the patterns of damage and recovery can be assessed across fields, years, and locations. The following figures show the vast differences between flooded and non-flooded Zea mays.\n\n\n\n\n\n\n2020 represents a normal growing season while 2021 shows a field that underwent a natural flooding event at the V5 stage. The resulting analysis has shown that a closer look at environmental factors (soil, water, and management) need to be taken into account prior to specific cultivars being identified as flood-tolerant."
   },
   {
     "objectID": "posts/SMRD_2023/index.html",
     "href": "posts/SMRD_2023/index.html",
-    "title": "Welcome To My Blog",
+    "title": "Show Me Research Day 2023",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "I always love an opportunity to discuss my most current research. In MIZZOU's Show Me Research Day Symposium I was able to present my findings and gain valuable insights from other scientists within our local community. As I look towards the future of my flood-tolerance work, I hope to be able to continue to share and collaborate with others. This was a great way to end my semester!"
   },
   {
     "objectID": "posts/BIPS_SMM/index.html",
     "href": "posts/BIPS_SMM/index.html",
     "title": "BIPS: Show Me MUn Project",
     "section": "",
-    "text": "BIPS (BioInformatics In Plant Science) has been working on our semester project. Currently we are participating in Plant the Moon where student researchers from across the country come up with ideas to make regolith (moon substrate) viable for plant growth. (October 2023 - present)"
+    "text": "BIPS (BioInformatics in Plant Science) has been working on our semester project. Currently, we are participating in Plant the Moon where student researchers from across the country come up with ideas to make regolith (moon substrate) viable for plant growth. \nDuring our preliminary meetings, we noticed that pure regolith did not absorb water. Instead, the water pooled on the top of the substrate. Our current idea to \"Plant the Moon\" is to increase the porosity of soil with perlite. This will increase water infiltration as well as nutrient absorption of the plants. We have done this by adding 10% more perlite per container up to 80%. Essentially creating a gradient of differing bulk densities. We will take images of these plants and characterize their growth patterns to identify the correlation between success and bulk density of the growing substrate. \n\n\n\n\n\nThe above image is of our current experimental design. Each container holds its designated amount of perlite and will be given the exact same water and nutrient treatments."
   }
 ]

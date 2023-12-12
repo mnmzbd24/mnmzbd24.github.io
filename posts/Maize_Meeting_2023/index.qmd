@@ -3,9 +3,9 @@ title: "Maize Meeting 2023"
 author: "Madison Mitchell"
 date: "2023-04-10"
 categories: [news, code, analysis]
-image: "MGC_Poster_Final-Madi.jpg"
+image: "icon.png"
 ---
 
 ![](MGC_Poster_Final-Madi.jpg){fig-align="center"}
 
-I had a blast at the Maize Genetics Corperation Meeting! I had the opportunity to present my current research, attend numerous talks from experts in their fields, and network with amazing individuals.
+I had a blast at the MGC Meeting! I had the opportunity to present my current research, attend numerous talks from experts in their fields, and network with amazing individuals. Along with members of the  Flint-Garcia Lab, we also took home a win in the trivia competition. Overall, a great first-ever conference to attend!
