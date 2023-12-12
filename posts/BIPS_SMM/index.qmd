@@ -1,0 +1,13 @@
+---
+title: "BIPS: Show Me MUn Project"
+author: "Madison Mitchell"
+date: "2023-10-12"
+categories: [news, analysis]
+image: "Show_Me_MUn.png"
+---
+
+![](Show_Me_MUn.png){fig-align="center"}
+
+BIPS (BioInformatics In Plant Science) has been working on our semester project. Currently we are participating in Plant the Moon where student researchers from across the country come up with ideas to make regolith (moon substrate) viable for plant growth. **(October 2023 - present)**
+
+![](SMM_pots.jpg){fig-align="center"}

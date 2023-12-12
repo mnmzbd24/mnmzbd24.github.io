@@ -1,0 +1,9 @@
+---
+title: "Show Me Research Day 2023"
+author: "Madison Mitchell"
+date: "2023-12-07"
+categories: [news, code, analysis]
+image: "Pres_pic.jpg"
+---
+
+![](Research_Week_Poster.jpg)

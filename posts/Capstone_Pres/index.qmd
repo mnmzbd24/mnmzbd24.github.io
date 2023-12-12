@@ -1,0 +1,8 @@
+---
+title: "Capstone Presentation"
+author: "Madison Mitchell"
+date: "2023-12-01"
+categories: [news, code, analysis]
+image: "sneak_peak.png"
+---
+

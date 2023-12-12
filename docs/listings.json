@@ -2,5 +2,15 @@
   {
     "listing": "/index.html",
     "items": []
+  },
+  {
+    "listing": "/Projects.html",
+    "items": [
+      "/posts/SMRD_2023/index.html",
+      "/posts/Capstone_Pres/index.html",
+      "/posts/BIPS_SMM/index.html",
+      "/posts/Field_Season_2023/index.html",
+      "/posts/Maize_Meeting_2023/index.html"
+    ]
   }
 ]
