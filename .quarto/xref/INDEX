@@ -28,5 +28,14 @@
   },
   "posts/BIPS_SMM/index.qmd": {
     "index.html": "0a503a56"
+  },
+  "posts/plant_path/index.qmd": {
+    "index.html": "8bff0deb"
+  },
+  "posts/QGIS_protocol/index.qmd": {
+    "index.html": "5111e731"
+  },
+  "posts/soils/index.qmd": {
+    "index.html": "7e10f493"
   }
 }

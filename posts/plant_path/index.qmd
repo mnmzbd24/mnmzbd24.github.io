@@ -1,0 +1,13 @@
+---
+title: "Plant Pathology"
+author: "Madison Mitchell"
+date: "2023-12-12"
+categories: [news, education]
+image: "IMG_7692.jpeg"
+---
+
+![](IMG_7801.jpeg){fig-align="left"}
+
+![](IMG_7803.jpeg){fig-align="right"}
+
+![](Screen%20Shot%202023-10-30%20at%209.55.55%20AM.jpeg){fig-align="center"}

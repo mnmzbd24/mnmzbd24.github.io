@@ -6,11 +6,14 @@
   {
     "listing": "/Projects.html",
     "items": [
+      "/posts/plant_path/index.html",
+      "/posts/QGIS_protocol/index.html",
       "/posts/SMRD_2023/index.html",
       "/posts/Capstone_Pres/index.html",
       "/posts/BIPS_SMM/index.html",
       "/posts/Field_Season_2023/index.html",
-      "/posts/Maize_Meeting_2023/index.html"
+      "/posts/Maize_Meeting_2023/index.html",
+      "/posts/soils/index.html"
     ]
   }
 ]

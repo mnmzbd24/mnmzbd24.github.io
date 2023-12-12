@@ -1,0 +1,9 @@
+---
+title: "Soils Experience"
+author: "Madison Mitchell"
+date: "2022-09-01"
+categories: [news, education]
+image: "IMG_6447.jpg"
+---
+
+![](IMG_6640.jpeg){fig-align="center"}
