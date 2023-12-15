@@ -1,20 +1,22 @@
 ---
 title: "Soils Experience"
 author: "Madison Mitchell"
-date: "2022-09-01"
+date: "2023-05-09"
 categories: [news, education]
 image: "IMG_6447.jpg"
 ---
 
 As part of my Plant Science education, I had the opportunity to take two Soils courses. The first was an introductory course that focused on how soils are formed, the classification of horizons and orders, and a hands-on lab section. In the image below I am bailing out water from a soil pit so that we can get an accurate look at the face of the soil to determine the types of horizons present.
 
-![](IMG_6640.jpeg){fig-align="center" width="1200"}
+![](IMG_6640.jpeg){fig-align="center" width="5in"}
 
 \
 The second was focused on nutrient management. As part of my second course, I was able to create a conservation plan including cultural and traditional management techniques. I chose to focus on Rollins Fram in Columbia, Missouri since it is the location where the data was collected for my capstone project. The lower portion of the farm has a long history of flooding. Therefore, I chose to focus on decreasing the amount of nitrogen runoff and erosion. A full proposal of the plan and calculations can be seen below.
 
  
 
-![](Management_Plan.pdf)
+![](Management_Plan.pdf){fig-align="center"}
 
-![](Calculations.pdf)\
+![](Calculations.pdf){fig-align="center"}
+
+\
