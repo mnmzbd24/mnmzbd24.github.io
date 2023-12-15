@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Madison Mitchell &amp; Grace Sidberry">
-<meta name="dcterms.date" content="2023-12-15">
+<meta name="author" content="Madison Mitchell">
+<meta name="dcterms.date" content="2023-02-06">
 
-<title>Madi Mitchell - QGIS Grid Creation Protocol</title>
+<title>Madi Mitchell - Orthomosaic Phenotyping Through FIELDimageR</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -99,8 +99,9 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">QGIS Grid Creation Protocol</h1>
+      <h1 class="title">Orthomosaic Phenotyping Through FIELDimageR</h1>
                                 <div class="quarto-categories">
+                <div class="quarto-category">news</div>
                 <div class="quarto-category">analysis</div>
                 <div class="quarto-category">SOP</div>
               </div>
@@ -113,14 +114,14 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Madison Mitchell &amp; Grace Sidberry </p>
+               <p>Madison Mitchell </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">December 15, 2023</p>
+        <p class="date">February 6, 2023</p>
       </div>
     </div>
     
@@ -140,74 +141,73 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><strong>Gridding the Reference Flight</strong></p>
+<p>This is SOP specific to the scripts I have created and stored in my Flood_Tolerance repository. My goal streamline their use for others within the lab. For a more in depth tutorial the FIELDimageR tutorial from OpenDroneMap is what my work is based on.</p>
+<p>LINK: https://github.com/OpenDroneMap/FIELDimageR</p>
+<hr>
+<p><strong>Creating the File System:</strong></p>
 <ol type="1">
-<li><p>Open QGIS and open a “New Project”</p></li>
-<li><p>Go to the “Layer” tab at the top, then “Add Raster Layer” - where it says browse, go to the Pix4D folder for the date and field being gridded and find the orthomosaic tiff file from your date of interest</p></li>
-<li><p>Go to Project -&gt; Properties. Select CRS from the side tab. Change the Coordinate Reference System to “WGS 84/ UTM zone 15N” Authority ID: “EPSG:32615”</p></li>
-<li><p>Save project as Date_camera_field_QGIS</p></li>
-<li><p>When the orthomosaic shows up on the screen, go to the “Rotation” bar in the bottom right corner and change the rotation angle until the orthomosaic is straight (As straight as it can be, doesn’t have to be perfect)</p></li>
-<li><p>&nbsp;To create the origin point where the grid will start from:</p>
-<ol type="1">
-<li><p>Navigate to the “Layer” tab at the top of toolbar then “Create Layer” then “New Shapefile Layer”</p></li>
-<li><p>Save with the name “origin”&nbsp;</p></li>
-<li><p>Change the project CRS to EPSG:32615-WGS 84/UTM zone 15N Click ok</p></li>
-</ol></li>
-<li><p>Click the “Toggle Editing” and then “Add Point Feature” (dot and three stars icon at top of page) - make the point in the lower left corner above the GCP in between the plants in the first experimental plot</p></li>
-<li><p>&nbsp;When the labeling window comes up, name the point “1”</p>
-<p><img src="Screen Shot 2023-12-15 at 10.06.30 AM.png" class="img-fluid" style="width:7in"></p>
-<ol type="1">
-<li><p>&nbsp;To get to the processing toolbox:</p></li>
-<li><p>Go to “Plugins” then “Manage and Install Plugins”&nbsp;</p></li>
-<li><p>Re-check the box for “Processing”</p></li>
-</ol></li>
-<li><p>Close the tab and click on the “Setting” icon that looks like a gear and the toolbox will appear</p>
-<p><img src="Screen Shot 2023-12-15 at 10.06.40 AM.png" class="img-fluid" style="width:7in"></p></li>
-<li><p>Click on the “R” option and in the drop down menu click “Draw Plots from points” -&nbsp; a window should appear with all of the options for inputting the range and row measurements. To create the grid:</p></li>
+<li><p>Create a folder titled "Name of Field_Data_Extraction"</p></li>
+<li><p>Within this folder, there should be subfolders labeled "Date of Imaging_DE" (This folder will turn into the working directory for the script)</p></li>
 </ol>
-<!-- -->
+<p>This folder will need to contain the following:</p>
+<ul>
+<li><p>A copy of the RGB .tif file</p></li>
+<li><p>A copy of the RGB dsm .tif file</p></li>
+<li><p>A copy of all Multispectral .tif files</p></li>
+<li><p>A copy of all the files in the originals folder&nbsp;</p>
+<ul>
+<li><p>01_Phenotype_Extraction</p></li>
+<li><p>02_Data_Cleaning</p></li>
+<li><p>03_Phenotype_Graphs</p></li>
+<li><p>6 Rollins5_grid_NEW files&nbsp;</p></li>
+<li><p>Rollins_Field_Map_NEW.csv</p></li>
+<li><p>210604_m2pro_Rollins5_Pix4D_dsm.tif</p></li>
+</ul></li>
+</ul>
+<hr>
+<p><strong>Running the 01_Phenotype_Extraction Script:</strong></p>
 <ol type="1">
-<li><p>Based on information from the field map given, enter the number of ranges in the box for “Number of ranges per block” and enter the number of rows in the box for “Number of rows per block”</p></li>
-<li><p>In the angle of rotation, enter the opposite (+/-) number of the rotation the orthomosaic is set at, which can be seen in the bottom right corner of the screen</p></li>
-<li><p>Make the measurement unit for plot size “feet” and the ID format “serpentine”</p>
-<p><img src="Screen Shot 2023-12-15 at 10.06.55 AM.png" class="img-fluid" style="width:7in"></p></li>
-<li><p>Start the numbering plots should be “bottom left”</p></li>
-<li><p>The “Full plot height” and “Data plot height” should be the length of each plot in feet and the “Full plot width” and “Data plot width” should be the width of each plot in feet</p></li>
-<li><p>Set the Field containing ID to “123 id” (a common error with the script happens when this setting isn’t correct)</p></li>
+<li>Once the script is open the assigned variables will need to be changed in accordance with the new working directory and flight date</li>
 </ol>
-<p>11. Go to the log tab at the top of the window to see if the script runs successfully</p>
-<p>12. When the script is finished running, the grid will generate on top of the orthomosaic with the boxes colored in. To make the boxes transparent:</p>
-<ol type="1">
-<li><p>Click on the layer in the “Layers” Menu on the left side of the screen</p></li>
-<li><p>In the dropdown menu, go to “Properties” then “Symbology” on the left side of the window</p></li>
-<li><p>Change the fill to the red outline</p></li>
-<li><p>Click on the “Simple Line” below “Fill” and change the line width to “Hairline”&nbsp;</p></li>
-<li><p>Click “Ok”</p></li>
-</ol>
-<p>13. Go through each row of the grid checking that each box contains one plot - the plots on the end of each row and range don’t need a box because they’re border - so when the grid is used for future flights the plots will, for the most part, already be lined up (This step will probably take the longest)</p>
-<p>14. Turn off toggle editing on the Trial grid layer</p>
-<p>15. Export the reference grid for future use (***THIS MUST HAPPEN EVEN IF THE GRID ISN’T FINISHED…YOU WILL DELETE EVERYTHING IF NOT DONE!!!!!!!!)</p>
-<ol type="1">
-<li><p>Select the grid (“All trials”) from the layers toolbar on the left</p></li>
-<li><p>Right click on the grid and go to Export -&gt; Save Feature As…</p></li>
-<li><p>Select the “GeoPackage” as the format</p></li>
-<li><p>Select the “...” button and navigate to the main directory for this field (i.e., Gen7)</p></li>
-<li><p>Name the file as “Reference_grid_[Field Name]_[Year]”. Click Save. Click Ok.</p></li>
+<p>Variable Naming System:</p>
+<ul>
+<li><p>wd = pathway to the working directory ("Date of Imaging_DE" folder)</p></li>
+<li><p>x = file name of the grid</p></li>
+<li><p>y = file name of the RGB tif</p></li>
+<li><p>z = name of the final indices values file (will be exported to wd)</p></li>
+<li><p>b = name of the final LAI values file (will be exported to wd)</p></li>
+<li><p>c = digital surface model of the DSM</p></li>
+<li><p>d = reference DEM with no plants</p></li>
+<li><p>e = the final file name of the plant height values</p></li>
+</ul>
+<ol start="2" type="1">
+<li>Click the green run triangle in the top right corner of each r chunk in the script…some steps will take a while to run</li>
 </ol>
 <hr>
-<p><strong>HOW TO OPEN THE FILES AND START ALTERING THE GRID AGAIN AFTER INITIAL CLOSING AND SAVING</strong></p>
+<p><strong>Running the 02_Data_Cleaning Script:</strong></p>
 <ol type="1">
-<li><p>Open QGIS</p></li>
-<li><p>Project -&gt; Open… -&gt; select the project from the date of interest .qgz (this will only open the orthomosaic)</p></li>
-<li><p>Layer -&gt; Add Layer -&gt; Add Vector Layer</p>
+<li>Once the script is open the assigned variables will need to be changed in accordance with the new working directory and flight date</li>
+</ol>
+<p>Variable Naming System:</p>
+<ul>
+<li><p>wd = pathway to the working directory ("Date of Imaging_DE" folder)</p></li>
+<li><p>x = name of the final indices csv file</p></li>
+<li><p>y =&nbsp; name of the final height values csv file</p></li>
+<li><p>z = name of the final LAI values csv file</p></li>
+<li><p>m = the name of the column and row csv file from planting&nbsp;</p></li>
+<li><p>a = the name of the new condensed file</p></li>
+</ul>
+<ol start="2" type="1">
+<li><p>Click the green run triangle in the top right corner of each r chunk in the script…some steps will take a while to run</p></li>
+<li><p>After this step, I like to organize all the files in the folder</p>
 <ol type="1">
-<li>Choose the Reference_grid_“field”_“date”</li>
+<li><p>Originals = all the files copies from the originals folder</p></li>
+<li><p>210701 or the date = all the tiffs from that specific date</p></li>
+<li><p>Height</p></li>
+<li><p>LAI</p></li>
+<li><p>Indices</p></li>
+<li><p>Leave the All_Data in the working directory folder</p></li>
 </ol></li>
-<li><p>Enable Toggle editing on the Reference grid layer</p>
-<ol type="1">
-<li>Right click -&gt; Properties -&gt; symbology change the grid to red outline and change the line weight to hairline</li>
-</ol></li>
-<li><p>Resume fixing the grid</p></li>
 </ol>
 <p><br>
 </p>

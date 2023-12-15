@@ -3,7 +3,7 @@ title: "QGIS Grid Creation Protocol"
 author: "Madison Mitchell & Grace Sidberry"
 date: "2023-12-15"
 categories: [analysis, SOP]
-image: "IMG_7855.jpeg"
+image: "grid.png"
 ---
 
 **Gridding the Reference Flight**

@@ -1,0 +1,105 @@
+---
+title: "Orthomosaic Phenotyping Through FIELDimageR"
+author: "Madison Mitchell"
+date: "2023-02-06"
+categories: [news, analysis, SOP]
+image: "image.png"
+---
+
+This is SOP specific to the scripts I have created and stored in my Flood_Tolerance repository. My goal streamline their use for others within the lab. For a more in depth tutorial the FIELDimageR tutorial from OpenDroneMap is what my work is based on.
+
+LINK: https://github.com/OpenDroneMap/FIELDimageR
+
+------------------------------------------------------------------------
+
+**Creating the File System:**
+
+1.  Create a folder titled \"Name of Field_Data_Extraction\"
+
+2.  Within this folder, there should be subfolders labeled \"Date of Imaging_DE\" (This folder will turn into the working directory for the script)
+
+This folder will need to contain the following:
+
+-   A copy of the RGB .tif file
+
+-   A copy of the RGB dsm .tif file
+
+-   A copy of all Multispectral .tif files
+
+-   A copy of all the files in the originals folder 
+
+    -   01_Phenotype_Extraction
+
+    -   02_Data_Cleaning
+
+    -   03_Phenotype_Graphs
+
+    -   6 Rollins5_grid_NEW files 
+
+    -   Rollins_Field_Map_NEW.csv
+
+    -   210604_m2pro_Rollins5_Pix4D_dsm.tif
+
+------------------------------------------------------------------------
+
+**Running the 01_Phenotype_Extraction Script:**
+
+1.  Once the script is open the assigned variables will need to be changed in accordance with the new working directory and flight date
+
+Variable Naming System:
+
+-   wd = pathway to the working directory (\"Date of Imaging_DE\" folder)
+
+-   x = file name of the grid
+
+-   y = file name of the RGB tif
+
+-   z = name of the final indices values file (will be exported to wd)
+
+-   b = name of the final LAI values file (will be exported to wd)
+
+-   c = digital surface model of the DSM
+
+-   d = reference DEM with no plants
+
+-   e = the final file name of the plant height values
+
+2.  Click the green run triangle in the top right corner of each r chunk in the script...some steps will take a while to run
+
+------------------------------------------------------------------------
+
+**Running the 02_Data_Cleaning Script:**
+
+1.  Once the script is open the assigned variables will need to be changed in accordance with the new working directory and flight date
+
+Variable Naming System:
+
+-   wd = pathway to the working directory (\"Date of Imaging_DE\" folder)
+
+-   x = name of the final indices csv file
+
+-   y =  name of the final height values csv file
+
+-   z = name of the final LAI values csv file
+
+-   m = the name of the column and row csv file from planting 
+
+-   a = the name of the new condensed file
+
+2.  Click the green run triangle in the top right corner of each r chunk in the script...some steps will take a while to run
+
+3.  After this step, I like to organize all the files in the folder
+
+    1.  Originals = all the files copies from the originals folder
+
+    2.  210701 or the date = all the tiffs from that specific date
+
+    3.  Height
+
+    4.  LAI
+
+    5.  Indices
+
+    6.  Leave the All_Data in the working directory folder
+
+\
