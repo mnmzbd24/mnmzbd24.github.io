@@ -3,7 +3,7 @@ title: "QGIS Grid Creation Protocol"
 author: "Madison Mitchell & Grace Sidberry"
 date: "2023-12-15"
 categories: [analysis, SOP]
-image: "grid.png"
+image: "IMG_7855.jpeg"
 ---
 
 **Gridding the Reference Flight**
@@ -44,9 +44,8 @@ image: "grid.png"
 
 10. Click on the "R" option and in the drop down menu click "Draw Plots from points" -  a window should appear with all of the options for inputting the range and row measurements. To create the grid:
 
-```{=html}
 <!-- -->
-```
+
 1.  Based on information from the field map given, enter the number of ranges in the box for "Number of ranges per block" and enter the number of rows in the box for "Number of rows per block"
 
 2.  In the angle of rotation, enter the opposite (+/-) number of the rotation the orthomosaic is set at, which can be seen in the bottom right corner of the screen
