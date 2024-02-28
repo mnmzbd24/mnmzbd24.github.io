@@ -14,13 +14,3 @@ title-block-banner: true
  # template: marquee
   #id: hero-heading
 ---
-
-
-
-
-
-
-
-
-
-
