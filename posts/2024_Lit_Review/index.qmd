@@ -1,5 +1,5 @@
 ---
-title: "2024 Lit Review Group"
+title: "Undergraduate Lit Review Group"
 author: "Madison Mitchell"
 date: "2024-02-07"
 categories: [news, education, collaboration]

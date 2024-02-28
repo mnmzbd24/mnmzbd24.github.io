@@ -8,7 +8,7 @@ about:
   links:
     - icon: github
       text: GitHub
-      href: https://github.com/mnmzbd24/mnmzbd24.github.io
+      href: https://github.com/mnmzbd24
       
     - icon: linkedin
       text: LinkedIn
